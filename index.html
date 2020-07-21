@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <label>
+      <span>Title:</span>
+      <input id="title" data-title />
+    </label>
+    <label>
+      <span>Author:</span>
+      <input id="author" data-author />
+    </label>
+    <p>Read?</p>
+
+    <div>
+      <input type="radio" id="yes" name="drone" value="yes" checked />
+      <label for="yes">Yes</label>
+    </div>
+    <div>
+      <input type="radio" id="no" name="drone" value="no" />
+      <label for="no">No</label>
+    </div>
+    <button id="submit-btn" data-submit>Add Book</button>
+    <button id="show-library" data-show>Show Library</button>
+    <div id="root"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
